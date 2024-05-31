@@ -1,0 +1,29 @@
+.container{
+  width:100%;
+  margin-top:10%;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  gap: 10px;
+}
+
+.class-table{
+  background-color: rgb(204, 204, 204);
+  color: black;
+  border-radius: 20px;
+}
+
+.font-title{
+  font-size: 26px;
+  width: 390px;
+  color: white;
+}
+
+table thead tr th {
+  color: black;
+ font-size: medium;
+}
+
+.closed-row {
+  text-decoration: line-through;
+}
