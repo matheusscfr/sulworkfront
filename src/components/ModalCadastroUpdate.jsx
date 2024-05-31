@@ -43,7 +43,7 @@ const ModalCadastroUpdate = ({onUpdate, setOnUpdate, getCafe}) => {
 
       let id = onUpdate.id;
       try{
-      const response = await axios.put('https://sulworkback-production.up.railway.app/'+ id ,{
+      const response = await axios.put('https://sulworkback-production.up.railway.app/itens-selecionados/'+ id ,{
         nome: nomeUpdate,
         item: itemUpdate,
         dataCafe: dataUpdate
