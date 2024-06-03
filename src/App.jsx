@@ -5,6 +5,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import PageCadastroItem from './pages/PageCadastroItem.jsx';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import PageInicial from './pages/PageInicial.jsx';
+import { ToastContainer } from 'react-toastify';
 
 
 function App() {
@@ -17,7 +18,9 @@ function App() {
           <Route path='/colaborador' element={<PageCadastroColaborador/>}/>
           <Route path='/itens' element={<PageCadastroItem/>}/>
       </Routes>
+
       </BrowserRouter>
+      <ToastContainer position='top-right' autoClose={3000}/>
     </>
   )
 }
